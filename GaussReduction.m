@@ -1,6 +1,6 @@
 %  Monroy Fernandez Jose Luis
 %  2BV1
-%% Gauss reductión funtion
+%%% Gauss reduction funtion
 function solutionVector = GaussReduction(matrixA, vectorA)
     % Gauss reduction
     matrixB = [matrixA vectorA];
@@ -37,7 +37,7 @@ function solutionVector = GaussReduction(matrixA, vectorA)
 
     end
 
-    disp(matrixB); %In order to show step by step remove the first' %'
+    %disp(matrixB); %In order to show step by step remove the first' %'
     multiplicator = matrixB(3, 2) / matrixB(2, 2);
     %Uptdate matrix B
     if multiplicator > 0
