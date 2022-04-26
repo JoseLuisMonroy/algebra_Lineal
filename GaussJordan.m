@@ -1,6 +1,7 @@
-function [MatrixFinal] = GaussJordan(matrixExtend)
 %Gauss Jordan 
-%   Mteodo de gauss Jordan para la matrices 
+%   Metodo de gauss Jordan para la matrices 
+function [MatrixFinal] = GaussJordan(matrixExtend)
+
     sz = size(matrixExtend);
     multiplicator = matrixExtend(2, 1) / matrixExtend(1, 1);
     % Uptdate Matrix B
